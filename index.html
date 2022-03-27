@@ -22,11 +22,11 @@
             </div><hr>
         </div>
         <div class="bottomBar">
-            <a href="https://discord.gg/minimania/" class="link discord"></a>
-            <a href="https://www.facebook.com/groups/MiniManiaJogo" class="link facebook"></a>
-            <a href="https://www.instagram.com/minimaniaofc/" class="link instagram"></a>
-            <a href="https://www.youtube.com/c/MiniManiaJogoBR" class="link youtube"></a>
-            <a href="https://twitter.com/MiniManiaOFC" class="link twitter"></a>
+            <a href="https://discord.gg/minimania/" class="link discord" target="_blank"></a>
+            <a href="https://www.facebook.com/groups/MiniManiaJogo" class="link facebook" target="_blank"></a>
+            <a href="https://www.instagram.com/minimaniaofc/" class="link instagram" target="_blank"></a>
+            <a href="https://www.youtube.com/c/MiniManiaJogoBR" class="link youtube" target="_blank"></a>
+            <a href="https://twitter.com/MiniManiaOFC" class="link twitter" target="_blank"></a>
         </div>
     </section>
     <script src="script.js"></script>
@@ -35,10 +35,24 @@
             border-radius:100%;
             width:40px;
             height:40px;
-            background-color: black;
             margin-left:2px;
             margin-right:2px;
+            background-size:100%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }.link:hover{
+            box-shadow: inset 0px 0px 100px 1px rgba(255,255,255,0.5);
         }
+        .discord{
+            background-image: url(https://media.discordapp.net/attachments/914616752443383851/949848740271902790/pngwing.com.png);
+        }.facebook{background-size:150%;
+            background-image:url(https://media.discordapp.net/attachments/914616752443383851/949852516030492682/facebook-logo-0.png);}
+        .instagram{
+            background-image:url(https://media.discordapp.net/attachments/914616752443383851/949852515627831336/Instagram_icon.png);}
+        .youtube{background-size:170%;
+            background-image:url(https://media.discordapp.net/attachments/914616752443383851/957760384717181018/youtube-logo-7-2.png);}
+        .twitter{background-size:200%;
+            background-image:url(https://media.discordapp.net/attachments/914616752443383851/949852515275538502/kisspng-computer-icons-social-media-business-turner-s-fine-polynom-ai-powered-customer-service-5b7caab1013567.802539041534896817005.png);}
     </style>
 </body>
 </html>
