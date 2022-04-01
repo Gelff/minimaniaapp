@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none!important;
+  }
+
+html {
+    height: 100%;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url("mania_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.divmaniab {
+    color: #626262;
+    background-color: #FFFFEE;
+    border: 1px solid #DADADA;
+    border-radius: 5px!important;
+    padding: 30px 55px;
+}
+.divmania {
+    color: #626262;
+    background-color: #FFFFEE;
+    border: 1px solid #DADADA;
+    border-radius: 5px!important;
+    padding: 30px 35px;
+}
+.announcement-icon {
+    margin-right: 5px;
+}
+.divmaniab h2 {
+    color: #006;
+}
+.divmaniab h5 {
+    color: #036;
+    font-weight: 600;
+}
+.divmaniab p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.divmania h4 {
+    color: #006
+}
+
+.discord-btn {
+    color: #fbfbfb;
+    margin-right: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background-color: #738ADB;
+    border: 1px solid #738ADB;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.discord-btn:hover {
+    background-color: #fbfbfb00;
+    color: #738ADB;
+}
+
+.facebook-btn {
+    color: #fbfbfb;
+    margin-right: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.facebook-btn:hover {
+    background-color: #fbfbfb00;
+    color: #3b5998;
+}
+
+footer {
+    padding: 30px 0px;
+    margin-top: 25em;
+    color: #fbfbfb;
+    background-color: #2d7990;
+}
+
+footer a{
+    color: #03C7DE;
+    transition: 0.3s;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #94B509;
+}
+
+/* QUANDO O SITE FICAR NUMA TELA MENOR, SERÃO APLICADAS AS PROPRIEDADES ABAIXO GELFINHO */
+
+@media (max-width: 991.98px) {
+    header img {
+        display: block;
+    margin: 0 auto;
+    }
+    .divmania {
+        margin-top: 2.5em;
+    }
+}
