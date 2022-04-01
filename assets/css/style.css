@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none!important;
+  }
+
+html {
+   
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url("../images/mania_bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.divmaniab {
+    color: #626262;
+    background-color: #FFFFEE;
+    border: 1px solid #DADADA;
+    border-radius: 5px!important;
+    padding: 30px 55px;
+    height: 20%;
+}
+.divmania {
+    color: #626262;
+    background-color: #FFFFEE;
+    border: 1px solid #DADADA;
+    border-radius: 5px!important;
+    padding: 30px 35px;
+}
+.announcement-icon {
+    margin-right: 5px;
+}
+.divmaniab h2 {
+    color: #006;
+}
+.divmaniab h5 {
+    color: #036;
+    font-weight: 600;
+}
+.divmaniab p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.divmania h4 {
+    color: #006
+}
+
+.discord-btn {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background-color: #738ADB;
+    border: 1px solid #738ADB;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.discord-btn:hover {
+    background-color: #fbfbfb00;
+    color: #738ADB;
+}
+
+.facebook-btn {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.facebook-btn:hover {
+    background-color: #fbfbfb00;
+    color: #3b5998;
+}
+
+.youtube-btn {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background-color: #FF0000;
+    border: 1px solid #FF0000;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.youtube-btn:hover {
+    background-color: #fbfbfb00;
+    color: #FF0000;
+}
+
+.twitter-btn {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background-color: #1DA1F2;
+    border: 1px solid #1DA1F2;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.twitter-btn:hover {
+    background-color: #fbfbfb00;
+    color: #1DA1F2;
+}
+
+.instagram-btn {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border: 1px solid;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.instagram-btn:hover {
+    background: #fbfbfb00;
+    color: #1DA1F2;
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.btn-grad {
+   padding: 10px 15px;
+   font-size: 20px;
+   transition: 0.3s;
+   background-size: 200% auto;
+   color: #fbfbfb;           
+   border-radius: 30px;
+   border: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .tiktok-btn {
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 15px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: 0.3s;
+    box-shadow: 5px 8px 0px -2px #ff0050,-5px -8px 0px -2px #00f2ea;
+}
+.tiktok-btn:hover {
+    background: #fbfbfb;
+    color: rgb(0, 0, 0);
+}
+
+
+footer {
+    padding: 30px 0px;
+    margin-top: 25em;
+    color: #fbfbfb;
+    background-color: #2d7990;
+}
+
+footer a{
+    color: #03C7DE;
+    transition: 0.3s;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #94B509;
+}
+
+.social-mania {
+    width: 100%;
+}
+/* QUANDO O SITE FICAR NUMA TELA MENOR, SERÃO APLICADAS AS PROPRIEDADES ABAIXO GELFINHO */
+
+@media (max-width: 991.98px) {
+    header img {
+        display: block;
+    margin: 0 auto;
+    }
+    .divmania {
+        margin-top: 2.5em;
+    }
+    header, .mania1 {
+        padding: 0 15px;
+    }
+}
